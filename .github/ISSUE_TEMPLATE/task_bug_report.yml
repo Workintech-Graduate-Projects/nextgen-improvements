@@ -1,7 +1,7 @@
-name: 🐛 Hata Raporlama
+name: 🐛 ✅ Görevler için Hata Raporlama
 description: Hata gönderimi yapmak için sade şablon
 title: "[TASK]: "
-labels: ["draft", "task", "pending"]
+labels: ["draft", "task", "pending_issue_review"]
 assignees: ["gokhanozdemir"]
 body:
   - type: markdown
