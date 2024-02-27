@@ -1,7 +1,7 @@
-name: 🐛 🛠️ Günlük Görevler için Hata Raporu Oluştur
+name: 🐛 📊 Haftalık Sınav için Hata Raporu Oluştur
 description: Hata gönderimi yapmak için sade şablon
-title: "[TASK]: "
-labels: ["draft", "task"]
+title: "[EXAM]: "
+labels: ["draft", "exam"]
 assignees: ["gokhanozdemir"]
 body:
   - type: dropdown
@@ -35,18 +35,6 @@ body:
         - Sprint 24
     validations:
       required: true
-  - type: dropdown
-    id: day
-    attributes:
-      label: Gün No
-      options:
-        - Day 1
-        - Day 2
-        - Day 3
-        - Day 4
-        - Day 5
-    validations:
-      required: true
   - type: input
     id: url
     attributes:
@@ -54,14 +42,6 @@ body:
       placeholder: https://...
     validations:
       required: false
-  - type: input
-    id: task_no
-    attributes:
-      label: Task No
-      description: "Görev numarası, örn: Task 1, Gün Projesi, ..."
-      placeholder: Task no
-    validations:
-      required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:

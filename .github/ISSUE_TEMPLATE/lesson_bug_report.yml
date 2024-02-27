@@ -1,7 +1,7 @@
-name: 🐛 🛠️ Günlük Görevler için Hata Raporu Oluştur
+name: 🐛 🧑‍🏫 Günlük Dersler için Hata Raporu Oluştur
 description: Hata gönderimi yapmak için sade şablon
-title: "[TASK]: "
-labels: ["draft", "task"]
+title: "[LESSON]: "
+labels: ["draft", "lesson"]
 assignees: ["gokhanozdemir"]
 body:
   - type: dropdown
