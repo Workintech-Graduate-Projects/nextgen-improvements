@@ -62,7 +62,7 @@ body:
       placeholder: Lütfen adım adım listeleyin.
     validations:
       required: true
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
-        #Ek bir yazılım kullanmadan **Ekran Kaydı Almak** [Windows 10-11](https://support.microsoft.com/tr-tr/windows/oyun-çubuğu-ile-bilgisayarınıza-oyun-klibi-kaydetme-2f477001-54d4-1276-9144-b0416a307f3c#ID0EDD=Windows_10) [MacOsX](https://support.apple.com/tr-tr/guide/mac-help/mh26782/mac#:~:text=Shift%2DKomut%2D5%20tuşlarına%20basın.) 
+        #Ek bir yazılım kullanmadan **Ekran Kaydı Almak** [Windows 10-11](https://support.microsoft.com/tr-tr/windows/oyun-çubuğu-ile-bilgisayarınıza-oyun-klibi-kaydetme-2f477001-54d4-1276-9144-b0416a307f3c#ID0EDD=Windows_10) [MacOsX](https://support.apple.com/tr-tr/guide/mac-help/mh26782/mac#:~:text=Shift%2DKomut%2D5%20tuşlarına%20basın.)
