@@ -17,7 +17,6 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
-  Create 2 dropdowns for the user to select the sprint between 1-24 and the day of the sprint between 1-5
   - type: dropdown
     id: sprint
     attributes:
@@ -50,9 +49,7 @@ body:
         - 24
     validations:
       required: true
-
   - type: dropdown
-
     id: day
     attributes:
       label: Hangi gün?
@@ -65,7 +62,6 @@ body:
         - 5
     validations:
       required: true
-      # kaçıncı taskta karşılaştınız? sayı girilecek bir input alanı oluşturulacak
   - type: input
     id: task
     attributes:
