@@ -61,3 +61,16 @@ body:
         - Day 5
     validations:
       required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Karşılaştığın hata nedir? Ne yapınca hata oluştu karşılaştınız?
+      description: "Lütfen adım adım hata ile hansıl karşılaştığınızı, kendi tarafımızda yeniden oluşturabilmek için adım adım anlatın."
+      value: |
+        1.
+        2.
+        3.
+        ...
+      placeholder: Lütfen adım adım listeleyin.
+    validations:
+      required: true
