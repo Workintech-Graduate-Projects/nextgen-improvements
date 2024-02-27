@@ -1,7 +1,7 @@
 name: 🐛 Hata Raporlama
 description: Hata gönderimi yapmak için sade şablon
-title: "[BUG]: "
-labels: ["draft"]
+title: "[TASK]: "
+labels: ["draft", "task", "pending"]
 assignees: ["gokhanozdemir"]
 body:
   - type: markdown
@@ -64,8 +64,8 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Karşılaştığın hata nedir? Ne yapınca hata oluştu karşılaştınız?
-      description: "Lütfen adım adım hata ile hansıl karşılaştığınızı, kendi tarafımızda yeniden oluşturabilmek için adım adım anlatın."
+      label: Karşılaştığınız hata nedir? Ne yapınca hata oluştu karşılaştınız?
+      description: "Lütfen adım adım hata ile hansıl karşılaştığınızı, kendi tarafımızda yeniden oluşturabilmek için adım adım anlatın. Gerekirse ekran görüntüsü ekleyebilirsini, araç menüsündeki 'ataç' ikonuna basarak ekran görüntüsü ekleyebilirsiniz."
       value: |
         1.
         2.
