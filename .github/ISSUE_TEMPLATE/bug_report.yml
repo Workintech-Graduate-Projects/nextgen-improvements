@@ -8,12 +8,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!!!
-          # windows 10 ve Mac OS X için ücretsiz ekran kaydı almak için dökümantasyon linkleri ekle Win: https://support.microsoft.com/tr-tr/windows/oyun-çubuğu-ile-bilgisayarınıza-oyun-klibi-kaydetme-2f477001-54d4-1276-9144-b0416a307f3c#ID0EDD=Windows_10
-          Mac: https://support.apple.com/tr-tr/guide/quicktime-player/qtp97b08e666/mac
-          Ekran kaydı alırken dikkat edilmesi gerekenler
-          - Ekran kaydı alırken sesi de kaydetmeyi unutmayın
-          - Ekran kaydı alırken ekranın tamamını kaydedin
-          - Ekran kaydı alırken hata anında ekran kaydını başlatın
         ...
   - type: checkboxes
     id: new-bug
