@@ -1,14 +1,13 @@
 name: 🐛 Hata Raporlama
 description: Hata gönderimi yapmak için sade şablon
 title: "[BUG]: "
-labels: ["bug"]
+labels: ["draft"]
 assignees: ["gokhanozdemir"]
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!!!
-
   - type: checkboxes
     id: new-bug
     attributes:
@@ -17,91 +16,3 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
-  - type: dropdown
-    id: sprint
-    attributes:
-      label: Hangi sprintte çalışıyorsunuz?
-      description: "Lütfen çalıştığınız sprinti seçin."
-      options:
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-        - 6
-        - 7
-        - 8
-        - 9
-        - 10
-        - 11
-        - 12
-        - 13
-        - 14
-        - 15
-        - 16
-        - 17
-        - 18
-        - 19
-        - 20
-        - 21
-        - 22
-        - 23
-        - 24
-    validations:
-      required: true
-  - type: dropdown
-    id: day
-    attributes:
-      label: Hangi gün?
-      description: "Lütfen hatayla karşılaştığınız günü seçin."
-      options:
-        - 1
-        - 2
-        - 3
-        - 4
-        - 5
-    validations:
-      required: true
-  - type: input
-    id: task
-    attributes:
-      label: Kaçıncı taskta karşılaştınız?
-      description: "Lütfen kaçıncı taskta karşılaştığınızı girin."
-      placeholder: 1
-    validations:
-      required: true
-      pattern: "^[0-9]+$"
-  - type: textarea
-    id: bug-description
-    attributes:
-      label: Karşılaştığınız hata nedir?
-      description: "Lütfen kısaca sorunu özetleyin."
-    validations:
-      required: true
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Nalerleyerek karşılaştınız?
-      description: "How do you trigger this bug? Please walk us through it step by step."
-      value: |
-        1.
-        2.
-        3.
-        ...
-      placeholder: Please write the steps in a list form
-    validations:
-      required: true
-  - type: dropdown
-    id: versions
-    attributes:
-      label: Which version of the app are you using?
-      description: If this issue is occurring on more than 1 version of the app, select the appropriate versions.
-      multiple: true
-      options:
-        - 1.0.0
-        - 1.1.0
-        - 1.2.0
-        - 2.0.0
-        - 2.1.0
-    validations:
-      required: true
