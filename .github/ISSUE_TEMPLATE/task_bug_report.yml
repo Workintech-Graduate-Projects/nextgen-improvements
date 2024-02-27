@@ -7,8 +7,7 @@ body:
   - type: dropdown
     id: sprint
     attributes:
-      label: Hangi sprintte çalışıyorsunuz?
-      description: "Lütfen çalıştığınız sprinti seçin."
+      label: Sprint No
       options:
         - Sprint 1
         - Sprint 2
@@ -39,14 +38,28 @@ body:
   - type: dropdown
     id: day
     attributes:
-      label: Hangi gün?
-      description: "Lütfen hatayla karşılaştığınız günü seçin."
+      label: Gün No
       options:
         - Day 1
         - Day 2
         - Day 3
         - Day 4
         - Day 5
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Hata bulunan sayfanın URL'si
+      placeholder: https://...
+    validations:
+      required: false
+  - type: input
+    id: task_no
+    attributes:
+      label: Task No
+      description: "Görev numarası, örn: Task 1, Gün Projesi, ..."
+      placeholder: Task no
     validations:
       required: true
   - type: textarea
@@ -65,6 +78,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⚠️ Harici bir yazılım kullanmadan **Ekran Kaydı Almak** 
+        ⚠️ Harici bir yazılım kullanmadan **Ekran Görüntüsü/Kaydı Nasıl Alınır?** 
         - [Windows 10-11](https://support.microsoft.com/tr-tr/windows/oyun-çubuğu-ile-bilgisayarınıza-oyun-klibi-kaydetme-2f477001-54d4-1276-9144-b0416a307f3c#ID0EDD=Windows_10)
         - [MacOsX](https://support.apple.com/tr-tr/guide/mac-help/mh26782/mac#:~:text=Shift%2DKomut%2D5%20tuşlarına%20basın.)
