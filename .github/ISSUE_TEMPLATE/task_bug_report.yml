@@ -3,7 +3,7 @@ description: Hata gönderimi yapmak için sade şablon
 title: "[TASK]: "
 labels: ["draft", "task", "bug"]
 assignees: ["gokhanozdemir"]
-projects: ["Workintech/projects/12"]
+projects: ["Workintech/12"]
 body:
   - type: dropdown
     id: sprint
