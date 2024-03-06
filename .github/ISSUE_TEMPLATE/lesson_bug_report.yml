@@ -1,8 +1,9 @@
 name: 🐛 🧑‍🏫 Günlük Dersler için Hata Raporu Oluştur
 description: Hata gönderimi yapmak için sade şablon
 title: "[LESSON]: "
-labels: ["draft", "lesson"]
+labels: ["draft", "lesson", "bug"]
 assignees: ["gokhanozdemir"]
+projects: ["Workintech/12"]
 body:
   - type: dropdown
     id: sprint
