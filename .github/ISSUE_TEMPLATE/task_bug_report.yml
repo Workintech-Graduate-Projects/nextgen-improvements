@@ -1,8 +1,9 @@
 name: 🐛 🛠️ Günlük Görevler için Hata Raporu Oluştur
 description: Hata gönderimi yapmak için sade şablon
 title: "[TASK]: "
-labels: ["draft", "task"]
+labels: ["draft", "task", "bug"]
 assignees: ["gokhanozdemir"]
+projects: ["12"]
 body:
   - type: dropdown
     id: sprint
