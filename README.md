@@ -4,7 +4,7 @@ NextGen eğitim platformumuzda karşılaştığınız hataları bildirmeniz ve b
 
 Bir hatayı bildirmek için aşağıdaki adımları takip edebilirsiniz:
 
-[Bu yeni issue oluşturma linki](https://github.com/Workintech-Graduate-Projects/nextgen-improvements/issues/new/choose)ni tıklayarak, karşılaştığınız soruna göre yeni bir issue oluşturun.
+[Bu yeni issue oluşturma linki](https://github.com/Workintech/nextgen-improvements/issues/new/choose)ni tıklayarak, karşılaştığınız soruna göre yeni bir issue oluşturun.
  *task, lesson, exam*
 - Karşılaştığınız hatayı detaylı bir şekilde açıklayın. Hatanın ne zaman ve nasıl oluştuğunu belirtin.
 - Eğer mümkünse, hatayı gösteren bir ekran görüntüsü ekleyin.
