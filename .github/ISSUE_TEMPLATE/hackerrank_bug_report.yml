@@ -1,8 +1,9 @@
 name: 🐛 📊 Haftalık Sınav için Hata Raporu Oluştur
 description: Hata gönderimi yapmak için sade şablon
 title: "[EXAM]: "
-labels: ["draft", "exam"]
+labels: ["draft", "exam", "bug"]
 assignees: ["gokhanozdemir"]
+projects: ["Workintech/12"]
 body:
   - type: dropdown
     id: sprint
